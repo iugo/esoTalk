@@ -21,11 +21,28 @@ if (!defined("IN_ESOTALK")) exit;
  *
  * @package esoTalk
  */
+ 
+/**
+ * Bootstrap 引导页
+ * 
+ * 主要有以下几条要点:
+ * 1. 安装环境. set 为什么要加 s?
+ * 2. 配置信息.
+ * 3. 要求并注册必要的类.
+ * 4. 安装插件.
+ * 5. Initializes the session, the database, and the cache.
+ * 6. Parses the page request.
+ * 7. Sets up skins. 安装外观.
+ * 8. Sets up the language. 安装语言.
+ * 9. Sets up the appropriate controller.
+ * 10. Dispatches to the controller, which will in turn render the page.
+ */               
 
 
 //***** 1. SET UP ENVIRONMENT
 
 // By default, only display important errors (no warnings or notices.)
+// 默认情况下, 只显示重要的错误, 不显示警告和提醒.
 ini_set("display_errors", "On");
 error_reporting(E_ERROR | E_PARSE | E_CORE_ERROR | E_COMPILE_ERROR | E_USER_ERROR | E_RECOVERABLE_ERROR);
 
