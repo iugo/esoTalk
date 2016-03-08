@@ -1,4 +1,4 @@
-## esoTalk – Fat-free forum software
+## esoTalk – Fat-free forum software (deprecated)
 
 NEW! Preview *Flarum*, esoTalk's successor. [Back the Kickstarter &raquo;](http://bit.ly/flarumks)
 
